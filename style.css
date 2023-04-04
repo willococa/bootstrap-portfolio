@@ -5,6 +5,12 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
 h2.logo{  
   font-style: normal;
   font-weight: 700;
@@ -24,4 +30,24 @@ h2.logo{
       url('assets/header.png') no-repeat,
       rgb(255, 255, 255);
     background-size: 98% 90%;
+    padding-top: 160px;
+    padding-bottom: 160px;
   }
+.headline p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+.connect{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+  text-decoration: none;
+}
+.nav-link{
+  padding-left: 12px;
+  padding-right: 0;
+}
