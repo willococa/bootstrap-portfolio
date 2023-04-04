@@ -5,49 +5,45 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-h1{
+h1, h2 {
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
-  line-height: 60px;
 }
-h2.logo{  
+.container > .row > .col-6 > h2 {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: var(--link-color);
 }
-.header-nav a{
+.header-nav a {
   color: var(--text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
 }
-  .headline {
-    background:
-      url('assets/header.png') no-repeat,
-      rgb(255, 255, 255);
-    background-size: 98% 90%;
-    padding-top: 160px;
-    padding-bottom: 160px;
-  }
-.headline p{
+.headline {
+  background: url("assets/header.png") no-repeat, rgb(255, 255, 255);
+  background-size: 98% 90%;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+.headline p {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
-.connect{
+.connect {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   text-decoration: none;
 }
-.nav-link{
+.nav-link {
   padding-left: 12px;
   padding-right: 0;
 }
