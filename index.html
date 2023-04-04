@@ -29,8 +29,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="row d-flex flex-column justify-content-center">
-			<div class="row d-flex flex-column justify-content-center headline pt-8">
+			<div class="row d-flex flex-column justify-content-center headline">
 				<div class="row   w-75 align-self-center">
 					<h1 class="big-header">I’m William and Marco. <br> Glad to see you!</h1>
 				</div>
@@ -58,7 +57,7 @@
 					</ul>
 				</div>
 			</div>
-
+		<div class="row bg-light d-flex flex-column justify-content-center p-5">
 			<div class="row">
 				<div class="row">
 
@@ -287,33 +286,39 @@
 					</ul>
 
 				</div>
-				<div class="row" class="contact-div class=" row"">
-					<div class="contact-wrapper">
-						<span class="wrapper-content">
+			</div>
+		</div>
 
-							<h2>Contact me</h2>
+				<div class="row bg-primary text-white d-flex flex-column justify-content-center contact-section p-5">
+					<div class="contact-wrapper w-50 d-flex flex-column justify-content-center align-self-center">
+						<span class="wrapper-content .text-light align-self-center d-flex flex-column">
+							<h2 class="align-self-center">Contact me</h2>
 							<p>If you have an application you are interested in developing, a feature that you need
 								built or
 								a project that needs coding.
 								I’d love to help with it!</p>
 							<form action="https://formspree.io/f/mzbqjrkw" method="post" class="contact-form">
-								<label for="name" hidden></label>
-								<input id="name" class="input" type="text" name="name" placeholder="Enter your name"
-									maxlength="30" required>
-								<label for="email" hidden></label>
-								<input id="email" class="input" type="email" name="email" placeholder="Enter your email"
-									required>
-								<label for="message" hidden></label>
-								<textarea id="message" class="message" name="message" cols="30" rows="10"
-									placeholder="Write your message here..." maxlength="500" required></textarea>
-								<input type="submit" class="submit big-btn" value="Get in touch">
-							</form>
 
+  								<div class="form-group pb-3">
+								<label for="name" hidden></label>
+								<input id="name" class="input form-control" type="text" name="name" placeholder="Enter your name"
+									maxlength="30" required>
+								</div>
+								<div class="form-group pb-3">
+								<label for="email" hidden></label>
+								<input id="email" class="input form-control" type="email" name="email" placeholder="Enter your email"
+									required></div>
+									<div class="form-group pb-3">
+								<label for="message" hidden></label>
+								<textarea id="message" class="message form-control" name="message" cols="30" rows="10"
+									placeholder="Write your message here..." maxlength="500" required></textarea></div>
+									<div class="d-flex flex-column pb-3">
+										<input type="submit" class="submit btn btn-light align-self-center" value="Get in touch">	
+									</div>
+							</form>
 					</div>
 					</span>
 				</div>
-			</div>
-		</div>
 
 </body>
 

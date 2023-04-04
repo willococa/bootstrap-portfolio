@@ -51,3 +51,11 @@ h2.logo{
   padding-left: 12px;
   padding-right: 0;
 }
+
+  .contact-section {
+    background:
+      url("assets/contact-form background.png")
+      no-repeat,
+      var(--link-color);
+    background-size: 100%;
+    }
